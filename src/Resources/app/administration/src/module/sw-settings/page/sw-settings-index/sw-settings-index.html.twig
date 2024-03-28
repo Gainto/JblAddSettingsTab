@@ -1,0 +1,17 @@
+{% block sw_settings_content_tab_plugins %}
+    {% parent %}
+
+    {% block sw_settings_content_tab_example %}
+        <sw-tabs-item
+                class="sw-settings__tab-example"
+                name="example"
+                :route="{ name: 'sw.settings.index.example'}"
+                :active-tab="active"
+                title="Example"
+        >
+            Example
+        </sw-tabs-item>
+    {% endblock %}
+
+
+{% endblock %}

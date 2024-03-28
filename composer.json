@@ -1,0 +1,41 @@
+{
+  "name": "jbl/add-settings-tab",
+  "description": "Add a new Tab to the settings",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Jeff Block",
+      "homepage": "https://www.jeffblock.de"
+    }
+  ],
+  "require": {
+    "shopware/core": "~6.5"
+  },
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "JblAddSettingsTab\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "JblAddSettingsTab\\JblAddSettingsTab",
+    "copyright": "(c) by codeenterprise GmbH",
+    "label": {
+      "de-DE": "Add a new Tab to the settings",
+      "en-GB": "Add a new Tab to the settings"
+    },
+    "description": {
+      "de-DE": "Add a new Tab to the settings",
+      "en-GB": "Add a new Tab to the settings"
+    },
+    "manufacturerLink": {
+      "de-DE": "https://www.codeenterprise.de/",
+      "en-GB": "https://www.codeenterprise.de/"
+    },
+    "supportLink": {
+      "de-DE": "https://www.codeenterprise.de/",
+      "en-GB": "https://www.codeenterprise.de/"
+    }
+  }
+}
